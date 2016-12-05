@@ -1,6 +1,4 @@
 body {
-    background-image: url("background.jpg");
-    background-color: #cccccc;
     margin: 60px auto;
     width: 70%;
 }
@@ -29,7 +27,6 @@ p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
-	background-image: url("background.jpg");
 }
 footer {
     border-top: 1px solid #d5d5d5;
