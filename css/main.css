@@ -1,7 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
-	background-image: url("background.jpg");
+	background-color: aliceblue
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -11,26 +11,29 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #da66b9;
 }
 a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
+    font-size 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color:black;
+    text-decoration: bold;
+    text-transform:uppercase;
 }
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
+    color: #1e3517;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 1px solid #0e0e0e;
     font-size: .8em;
 }
 
