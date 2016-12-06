@@ -65,7 +65,7 @@ function show() {
  
 document.getElementById('add').addEventListener('click', add);
 show();
-    return false;
+    return true;
 }
 function show() {
     var todos = get_todos();
