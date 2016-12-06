@@ -1,24 +1,66 @@
----
-layout: default
-title: Assignment 1, 2ID60
----
-<div class="blurb">
-	<h1>This is Assignment 1 for 2ID60 Web Technology</h1>
-	<p>This is the homepage for an assignment for 2ID60 <em>Web Technology</em>. <!--<a href="/about">Read more about my life...</a></p>-->
-
-<div id="myDIV" class="header"><script src="todo.js" type="text/javascript">
-  <h2>My To Do List</h2>
-  <input type="text" id="myInput" placeholder="Title...">
-  <span onclick="newElement()" class="addBtn">Add</span>
-  </script>
-</div>
-
-<ul id="myUL">
-  <li>Hit the gym</li>
-  <li class="checked">Pay bills</li>
-  <li>Meet George</li>
-  <li>Buy eggs</li>
-  <li>Read a book</li>
-  <li>Organize office</li>
-</ul>
-</div><!-- /.blurb -->
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Assignment 1, 2ID60</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<link rel="icon" type="image/png" href="http://aalison.github.io/logo-tue.png" />
+		</head>
+		<body>
+			<div class="blurb">
+			<h1>This is Assignment 1 for 2ID60 Web Technology</h1>
+			<p>This is the homepage for an assignment for 2ID60 <em>Web Technology</em>.</p>
+			</div>
+			<div id="myDIV" class="header">
+				<script src="todo.js" type="text/javascript">
+					<h2> My To Do List</h2>
+					<input type="text" id="myInput" placeholder="Title...">
+					<span onclick="newElement()" class="addBtn">Add</span>
+				</script>
+			</div>
+			<div>
+				<ul id="myUL">
+					<li>Hit the gym</li>
+					<li class="checked">Pay bills</li>
+					<li>Meet George</li>
+					<li>Buy eggs</li>
+					<li>Read a book</li>
+					<li>Organize office</li>
+				</ul>
+			</div>
+		</body>
+			<!--<div>
+			<script>
+  (function() {
+    var cx = '000663461185018965971:imeitlhoqho';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+</div>-->
+			<!--<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/about">Some other page</a></li>
+	        		<!--<li><a href="/cv">CV</a></li>
+	        		<li><a href="/blog">Blog</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="mailto:k.b.breider@student.tue.nl">Email</a></li>
+	        		<li>Student nr: 0926885</li>
+				</ul>
+			</footer>
+		</body>
+	</html>
